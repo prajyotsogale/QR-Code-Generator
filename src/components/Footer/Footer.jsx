@@ -20,7 +20,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://github.com/bishalde/QR-Code-Generator"
+                href="https://github.com/your-repo"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -29,9 +29,22 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="footer-info">
-          <p>&copy; 2024 Physi-c Tech. All rights reserved.</p>
+        <div className="counter">
+          <p>Number of visitors</p>
+          <a
+            href="https://www.hitwebcounter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://hitwebcounter.com/counter/counter.php?page=16769795&style=0030&nbdigits=4&type=ip&initCount=0"
+              title="Counter Widget"
+              alt="Visit counter For Websites"
+              border="0"
+            />
+          </a>
         </div>
+        <div className="footer-info"></div>
       </div>
     </footer>
   );
